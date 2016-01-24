@@ -1,0 +1,6 @@
+[Revision 91]
+	- Added hash_table_*del_*() for deletions
+	- Individual hash_entrys are not safe anymore (let the user handle it)
+	- Added bucket locks, all *safe() lock buckets
+	- Added deletion of hash_entry
+	- Added a for_each_safe() macro

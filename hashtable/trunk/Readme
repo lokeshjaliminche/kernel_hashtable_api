@@ -1,0 +1,19 @@
+This is a simple implementation of an open hashtable. 
+This is part of C Data Structures Library (CDSL) that i
+I am currently working on. The goal of CDSL is to make
+useful data structures available to C developers so that
+they don't have to waste time on reinventing the wheel.
+Think of it as, CDSL is to C what STL is to C++
+
+Direct comments, concerns, questions, bugs to
+kulesh [squiggly] isis.poly.edu
+
+TODO:
+0) do we want to amortize memory allocation?
+	- do bulk allocation and deallocation of data
+	- maintain list of free/empty items and reuse memory
+
+1) do we want to support some kind of statistics per hash table?
+	- how many elements in memory?
+	- what's the capacity/load etc.
+	- number of collisions/mallocs/searches etc.
